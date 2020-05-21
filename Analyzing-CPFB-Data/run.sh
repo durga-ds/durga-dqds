@@ -8,8 +8,8 @@ python3 consumer_complaints.py sample-complaints.csv myreport.csv
 
 # Run the code on full CFPB dataset `complaints.csv` and generate output (argument 2) into 'report.csv' 
 # If you face error `ValueError("time data m/d/Y does not match format %r" %`, do as follows in function `just_year`:
-# ```def just_year(input_date):
-#        strtime = dt.datetime.strptime(input_date, "%m/%d/%Y")
-#        #strtime = dt.datetime.strptime(input_date, "%Y-%m-%d")
-#         return strtime.strftime("%Y")```
+# def just_year(input_date):
+#     strtime = dt.datetime.strptime(input_date, "%m/%d/%Y")
+#     #strtime = dt.datetime.strptime(input_date, "%Y-%m-%d")
+#     return strtime.strftime("%Y")```
 #python3 consumer_complaints.py complaints.csv report.csv
