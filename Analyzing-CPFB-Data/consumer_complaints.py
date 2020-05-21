@@ -8,6 +8,7 @@ import os
 
 def just_year(input_date):
     strtime = dt.datetime.strptime(input_date, "%m/%d/%Y")
+    #strtime = dt.datetime.strptime(input_date, "%Y-%m-%d")
     return strtime.strftime("%Y")
 	
 def lower_case(input_text):

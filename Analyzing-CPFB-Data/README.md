@@ -41,19 +41,20 @@ Finally, percentages are listed as numbers and do not have `%` in them.
 The solution source code is written in python and is in file `consumer_complaints.py`
 
 The repo includes a shell script named run.sh that runs the program that implements the required features.
-The code is using `python3.8` and is run by specifying `python3' in the run.sh script. The folder `output` is for temporary files that will get deleted by the program when it's done generating the report.csv file.
+The code is using `python3.8` and is run by specifying `python3` in the run.sh script. The folder `output` is for temporary files that will get deleted by the program when it's done generating the report.csv file.
 
+Before downloading the full CFPB dataset `complaints.csv`, the code can be tested using a smaller input file called `sample-complaints.csv`. The output report for that sample is generated to a file called `myreport.csv`.
 See the figure below for the structure the repo.
 
 
     ├── README.md
     ├── run.sh
     ├── consumer_complaints.py
-    ├── complaints.csv
-    ├── report.csv 
+    ├── sample-complaints.csv
+    ├── myreport.csv 
     ├── output
         └── temp files 
 
 
-run.sh contains a line to execute this test. It needs to be uncommented to do the task.
+run.sh contains a line to execute this test. Proper line needs to be uncommented based on whether the dataset being used is smaller sample or the full dataset.
 
