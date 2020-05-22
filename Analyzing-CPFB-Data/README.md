@@ -1,4 +1,4 @@
-# Analyze consumer complaints using CFPB Consumer Complaint Dataset
+# CFPB Consumer Complaint Analysis using Python
 
 ## Problem
 CFPB provides a way for consumers to file complaints against companies regarding different financial products, such as payment problems with a credit card or debt collection tactics. This project will identify the number of complaints filed and how they're spread across different companies. 
