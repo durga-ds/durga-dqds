@@ -10,7 +10,7 @@ The purpose of this project is to find for each financial product and year
 
 
 ## Input dataset
-The input file is CFPB dataset called complaints.csv and contains data that can be found zipped at:http://files.consumerfinance.gov/ccdb/complaints.csv.zip. The code will read that input file, process it and write the results to an output file, `report.csv` that is placed in the same directory.
+The input file is CFPB dataset called complaints.csv and contains over 1.5 million records that can be found zipped at:http://files.consumerfinance.gov/ccdb/complaints.csv.zip. The code will read that input file, process it and write the results to an output file, `report.csv` that is placed in the same directory.
 (See here for more information on the data dictionary: https://cfpb.github.io/api/ccdb/fields.html)
 All names, including company and product, will be treated as case insensitive. For example, "Acme", "ACME", and "acme" would represent the same company.
 
