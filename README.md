@@ -1,2 +1,2 @@
 # durga-dqds
- Durga DS and DE projects repo
+ Coding examples for Data Engineering concepts and some snippets to copy&paste
