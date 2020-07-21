@@ -54,7 +54,7 @@ The repo includes a shell script named run.sh that runs the program that impleme
 The code is run by specifying `python` in the run.sh script. Any temporary files will get deleted by the program when it's done generating the report.csv file.
 
 Before downloading the full dataset `Border_Crossing_Entry_Data.csv`, the code can be tested using a smaller input file called `sample-csv.csv`. The output report for that sample is generated to a file called `sample-report.csv`.
-See the figure below for the structure the repo.
+See the figure below for the structure of the repo.
 
 
     ├── README.md ( This file )
