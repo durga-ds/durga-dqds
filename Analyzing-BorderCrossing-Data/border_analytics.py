@@ -123,7 +123,8 @@ vals = list(step2_vals.values())
 vals_flatlist =  single_list(vals)
 #print (vals_flatlist)
 
-# Calculate the list of "running average" values for each item in list 'vals'.
+#2.Calculate the running monthly average of total crossings, rounded to the nearest whole number, for that combination of Border 
+# and Measure. For this, we use list 'vals' and get "running average" values for each item in a list.
 avg_list = []
 for each_list in vals:
     avg_list.append(get_avg(each_list))
