@@ -124,7 +124,7 @@ vals_flatlist =  single_list(vals)
 #print (vals_flatlist)
 
 #2.Calculate the running monthly average of total crossings, rounded to the nearest whole number, for that combination of Border 
-# and Measure. For this, we use list 'vals' and get "running average" values for each item in a list.
+# and Measure. For this, we use list 'vals' and get "running average" values for each item in that list.
 avg_list = []
 for each_list in vals:
     avg_list.append(get_avg(each_list))
@@ -141,7 +141,7 @@ for a, b in zip(vals, avg_list):
 vals_avg_list =  single_list(tup_dictionary_vals)
 print (vals_avg_list)
 
-# Create a single dictionary using `vals_avg_list` as values and `res` as keys.
+# Create a single dictionary using `vals_avg_list` as values and `res` as keys. This is all of the analyzed data needed for output.
 # Write this dictionary of tuples to a temporary csv file. Each key,value pair will be written to the file as a separate row
 tup_dictionary = dict(zip(res, vals_avg_list))
 print(tup_dictionary)
