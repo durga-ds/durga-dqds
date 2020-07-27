@@ -9,13 +9,14 @@ The purpose of this project is to calculate
 
 
 ## Input dataset
+
 The Border Crossing Entry dataset is `Border_Crossing_Entry_Data.csv`. It has has over 350K lines and is found at: 
 https://data.transportation.gov/Research-and-Statistics/Border-Crossing-Entry-Data/keg4-3bc2. Also found there will be notes from the Bureau of Transportation Statistics for more information on each field
 For the purposes of this challenge, the following fields will be paid attention to:
-*	Border: Designates what border was crossed\
-*	Date: Timestamp indicating month and year of crossing\
-*	Measure: Indicates means, or type, of crossing being measured (e.g., vehicle, equipment, passenger or pedestrian)\
-*	Value: Number of crossings\
+*	Border: Designates what border was crossed
+*	Date: Timestamp indicating month and year of crossing
+*	Measure: Indicates means, or type, of crossing being measured (e.g., vehicle, equipment, passenger or pedestrian)
+*	Value: Number of crossings
 
 
 ## Output
