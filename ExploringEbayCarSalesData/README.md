@@ -2,3 +2,4 @@ Project: Data cleaning and exploratory analysis of used car listings using panda
 Original Dataset: https://www.kaggle.com/orgesleka/used-cars-database/data
 Description:  Data quality check and Data Cleaning using pandas as well as self defined python functions. Data exploration and analysis, with quantified results summary in Jupyter notebook.
 
+Open the notebook with Jupyter Notebook Viewer(https://nbviewer.jupyter.org/)
