@@ -2,9 +2,6 @@
 # list of averages rounded to the nearest integer
 #Example: Calculate running averages for 
 #test_list = [3,2,4]
-#For 3 = (2+4)/2 = 3
-#For 2 = 4
-#For 4 = 0
 #print (get_avg(test_list))
 #[3, 4, 0]
 
