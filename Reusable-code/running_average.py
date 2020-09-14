@@ -14,6 +14,5 @@ def get_avg(input_list):
         output_list.append(round(mean(input_list[n:])))
         n += 1
     else: # if n == l:
-        output_item = 0
-        output_list.append(output_item)
+        output_list.append(0)
     return output_list
