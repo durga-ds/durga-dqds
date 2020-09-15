@@ -1,5 +1,5 @@
 # Python function to add a new column to an existing CSV file from a list. Result is written to an output file
-#Example: Add values from [4,4,5,5,9,9,9] as a new column to `example_csv.csv`. Output to file `new_col.csv`
+#Example: Add list [4,4,5,5,9,9,9] as a new column to `example_csv.csv`. Output to file `new_col.csv`
 #col_list = [4,4,5,5,9,9,9]
 #add_col_to_csv('example_csv.csv','new_col.csv',col_list)
 
